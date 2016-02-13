@@ -14,6 +14,7 @@
 		1C9F9AC51C6FA8F500B96774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9F9AC31C6FA8F500B96774 /* LaunchScreen.storyboard */; };
 		1C9F9AD01C6FA8F600B96774 /* Line_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9F9ACF1C6FA8F600B96774 /* Line_ViewTests.swift */; };
 		1C9F9ADB1C6FA8F600B96774 /* Line_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9F9ADA1C6FA8F600B96774 /* Line_ViewUITests.swift */; };
+		1C9F9AE91C6FA90500B96774 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9F9AE81C6FA90500B96774 /* LineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1C9F9AD61C6FA8F600B96774 /* Line ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Line ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C9F9ADA1C6FA8F600B96774 /* Line_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line_ViewUITests.swift; sourceTree = "<group>"; };
 		1C9F9ADC1C6FA8F600B96774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C9F9AE81C6FA90500B96774 /* LineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				1C9F9ABA1C6FA8F500B96774 /* AppDelegate.swift */,
 				1C9F9ABC1C6FA8F500B96774 /* ViewController.swift */,
+				1C9F9AE81C6FA90500B96774 /* LineView.swift */,
 				1C9F9ABE1C6FA8F500B96774 /* Main.storyboard */,
 				1C9F9AC11C6FA8F500B96774 /* Assets.xcassets */,
 				1C9F9AC31C6FA8F500B96774 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				1C9F9ABD1C6FA8F500B96774 /* ViewController.swift in Sources */,
 				1C9F9ABB1C6FA8F500B96774 /* AppDelegate.swift in Sources */,
+				1C9F9AE91C6FA90500B96774 /* LineView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
